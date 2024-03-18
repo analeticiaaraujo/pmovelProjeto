@@ -1,10 +1,11 @@
 import { View, Text } from "react-native";
 
-const Gato = ( {nome} ) => {
+const Gato = ( {nome, idade} ) => {
     return(
-        <view>
-            <text>Meu nome é {nome}</text>
-        </view>
+        <View>
+            <Text>Nome: {nome}</Text>
+            <Text>Idade: {idade}</Text>
+        </View>
     )
 }
 
