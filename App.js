@@ -7,6 +7,8 @@ export default function App() {
     <View style={styles.container}>
       <Text> Hello Ellen!</Text>
       <Gato/>
+      <Gato/>
+      <Gato/>
       <StatusBar style="auto" />
     </View>
   );
