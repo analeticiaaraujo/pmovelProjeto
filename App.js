@@ -1,8 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Gato from './Gato';
+import Cliques from './Cliques';
 
-export default function App() {
+function App() {
   return (
     <View style={styles.container}>
       <Text> Hello Ellen!</Text>
@@ -13,6 +14,8 @@ export default function App() {
     </View>
   );
 }
+
+export default Cliques;
 
 const styles = StyleSheet.create({
   container: {
