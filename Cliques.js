@@ -7,11 +7,12 @@ const Cliques = () => {
     return(
         <View style={{flex: 1, justifyContent: 'center'}}>
             <Button title = "OK" onPress = {() => {
-                setCliques(cliques + 1);
+                //setCliques(cliques + 1);
+                setCliques(cliques + 1)
             }} />
         <Text> Quantidade de cliques: {cliques} </Text>
         </View>
     )
 }
 
-export default Cliques;
+export default Cliques
